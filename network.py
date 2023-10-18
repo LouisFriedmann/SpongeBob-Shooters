@@ -10,8 +10,8 @@ BYTES_TO_RECEIVE = 4096*2
 class Network:
     def __init__(self):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server = "26.76.124.87"
-        self.port = 5050
+        self.server = "Enter your local server's IP address"
+        self.port = Enter your open port
         self.addr = (self.server, self.port)
         self.entities = self.connect()
 
