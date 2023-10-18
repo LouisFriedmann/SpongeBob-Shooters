@@ -10,8 +10,8 @@ from entity import Boss
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Constants
-SERVER = "26.76.124.87"
-PORT = 5050
+SERVER = "Enter your local IP Address"
+PORT = Enter an open port
 BYTES_TO_RECEIVE = 4096*2
 RIGHT_BORDER, BOTTOM_BORDER = 500, 750
 BOSS_HEALTH = 25
