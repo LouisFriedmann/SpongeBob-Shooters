@@ -11,4 +11,4 @@ shot each time Flying Dutchman shoots), and bombs that go straight down and deal
 
 Controls for each player: To jump, press up arrow. To move left and right, use left and right arrow keys. To shoot, press space (note: there's a small shooting cooldown timer per shot)
 
-To run this: Get 2 separate computers (both preferably windows for this to work smoothly)
+To run this: Get 2 separate computers on the same WiFi (both preferably Windows for this to work smoothly). On both computers: have Python 3 or greater installed, place all of the files in this repository in the same directory, install the package "pygame." On one computer, run the "server.py" through the command prompt or through an IDE. Then, do the same for "client.py" and on the second computer, just run "client.py"
